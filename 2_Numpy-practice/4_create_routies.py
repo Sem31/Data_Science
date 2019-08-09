@@ -61,3 +61,9 @@ print(x)
 print("\ncreate via a asarray() method...")
 y  = np.asarray(x)
 print(y)
+
+
+#create a random array
+print("\nprint the random array :")
+a = np.random.rand(4,3)
+print(a)
